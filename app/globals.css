@@ -1,24 +1,31 @@
 @import "tailwindcss";
 @tailwind utilities;
 
-html, body {
+html,
+body {
   color: #fff;
   background: #1f1934;
 }
 
 main {
-  background: #393a47;
+  background: #060019;
   height: 100vh;
   height: 100dvh;
-  
-}
 
-@layer utilities {
-  .text-balance {
+  .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+  .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background-color: #f5741c;
+
+  }
+
+  }
+
+  @layer utilities {
     .text-balance {
+      .text-balance {
 
-      text-wrap: balance;
+        text-wrap: balance;
 
+      }
     }
   }
-}

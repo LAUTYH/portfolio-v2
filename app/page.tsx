@@ -1,4 +1,7 @@
 import CoverParticles from "@/components/cover-particles";
+import "../app/globals.css"; // <- debe estar exactamente así
+import type { AppProps } from "next/app";
+
 import Image from "next/image";
 
 export default function Home() {
